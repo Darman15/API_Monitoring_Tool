@@ -1,0 +1,46 @@
+
+
+  /* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #cce7ff; /* Slightly darker blue */
+  color: #003366;
+}
+
+tr:hover {
+  background-color: #e0f2ff;
+}
+
+/* Status Indicator Styling */
+.status-indicator {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.status-indicator.green {
+  background-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+.status-indicator.red {
+  background-color: red;
+  box-shadow: 0 0 10px red;
+}
